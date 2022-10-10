@@ -1,8 +1,113 @@
-*{
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.flex{
+.flex {
     display: flex;
+}
+.box-for-numbers {
+    height: 400px;
+    /* background-color: aqua; */
+    flex-direction: column;
+    justify-content: center;
+}
+.beautifull-numbers {
+    display: flex;
+    justify-content: space-evenly;
+    height: 120px;
+    /* background-color: bisque; */
+}
+
+.bold {
+    font-weight: 700; 
+}
+.block {
+    /* background-color: green; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.big {
+    color: #252c38;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4rem;
+    line-height: 3.75rem;
+    
+}
+
+.reviews {
+    height: 570px;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    background-color: #F1F9FC;
+}
+.reviews-box {
+    width: 85vw;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.arrow-image-left{
+    width: 18px;
+    height: 28px;
+    background-image: url(./images/download.svg);
+    background-color: aqua;
+    align-self: center;
+}
+
+.arrow-image-right {
+    width: 18px;
+    height: 28px;
+    background-image: url(./images/download_right.svg);
+    align-self: center;
+}
+
+.review {
+    flex-direction: column;
+    max-width: 25%;
+}
+
+.review-image {
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+    margin-bottom: 1.25rem;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+.reviews-line {
+   
+    justify-content: space-between;
+    align-items:flex-start
+}
+
+.review-text {
+    color: #6b747b;
+    font: 400 1rem/1.625rem "Open Sans", sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.review-name {
+    color: #252c38;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.h2-review {
+    color: #252c38;
+    font-weight: 700;
+    font-size: 2.125rem;
+    line-height: 2.625rem;
+    letter-spacing: -0.4px;
+    /* font: 400 1rem/1.625rem "Open Sans", sans-serif; */
 }
