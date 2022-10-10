@@ -353,21 +353,44 @@ ul {
 
 .prices{
     width: 100%;
-    height: 70%;
+    height: 720px;
     background-image: url(./assets/pricing-background.jpeg);
     background-size: cover;  
-    color: white;
-    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 
 .pricetext{
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    color: white;
+    margin: auto;
 }
 
 .hcolor{
     color: #ff6e84;
+}
+
+.hfont{
+    text-transform: uppercase;
+}
+
+
+
+
+.boxsection{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    width: 330px;
+    height: 487px;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 15px;
 }
