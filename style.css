@@ -1,11 +1,10 @@
 
 *{
-    margin: 0 auto;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body{
-
     font-family: Roboto, sans-serif;
 }       
 
@@ -275,7 +274,6 @@ ul{
     width: 18px;
     height: 28px;
     background-image: url(./images/download.svg);
-    background-color: aqua;
     align-self: center;
 }
 
@@ -327,4 +325,5 @@ ul{
     font-size: 2.125rem;
     line-height: 2.625rem;
     letter-spacing: -0.4px;
-    /* font: 400 1rem/1.625rem "Open Sans", sans-serif; */
+    /* font: 400 1rem/1.625rem "Open Sans", sans-serif; ****/
+}
