@@ -385,6 +385,12 @@ ul {
 .pricetext h2{
     font-size: xx-large;
     margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.pricetext p{
+    margin-left: 160px;
+    margin-right: 160px;
 }
 
 .hcolor{
@@ -414,11 +420,6 @@ ul {
 
 }
 
-.pricetype{
-    flex-direction: column;
-    justify-content: center;
-
-}
 
 .pricy{
     font-weight: 500;
@@ -430,6 +431,17 @@ ul {
     text-align: left;
 }
 
+.pricesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dollsign{
+    font-size: 30px;
+    font-weight: 400;
+    margin-right: 10px;
+}
 
 .monthly{
     font-weight: 400;
@@ -700,6 +712,11 @@ ul {
         padding: 0;
         justify-content: center;
         
+    }
+
+    .pricetext p{
+        margin-left: 0;
+        margin-right: 0;
     }
     
 }
