@@ -373,7 +373,7 @@ ul {
 }
 
 .pricetext{
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -384,6 +384,7 @@ ul {
 
 .pricetext h2{
     font-size: xx-large;
+    margin-top: 100px;
 }
 
 .hcolor{
@@ -692,6 +693,14 @@ ul {
         justify-content: center;
     }
 
+    .prices{
+        width: 100vw;
+        display: flex;
+        background-repeat: repeat;
+        padding: 0;
+        justify-content: center;
+        
+    }
     
 }
 
@@ -712,17 +721,6 @@ ul {
         text-align: center;
         
       
-    }
-    
-
-
-    .prices{
-        width: 100vw;
-        display: flex;
-        background-repeat: repeat;
-        padding: 0;
-        justify-content: center;
-        
     }
 
 }
