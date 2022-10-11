@@ -287,7 +287,7 @@ ul {
 }
 
 .reviews {
-    height: 570px;
+    height: 650px;
     /* background-color: aquamarine; */
     justify-content: center;
     background-color: #F1F9FC;
@@ -692,6 +692,30 @@ ul {
         justify-content: center;
     }
 
+    
+}
+
+@media only screen and (max-width: 390px) {
+    .none {
+        display: none;
+    }
+
+    
+    .review {
+        
+        max-width: 80%;
+    }
+    
+ 
+    
+    .h2-review {
+        text-align: center;
+        
+      
+    }
+    
+
+
     .prices{
         width: 100vw;
         display: flex;
@@ -700,6 +724,7 @@ ul {
         justify-content: center;
         
     }
+
 }
 
 
