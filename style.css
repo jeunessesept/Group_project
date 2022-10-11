@@ -262,8 +262,9 @@ ul {
 }
 .beautifull-numbers {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 120px;
+    /* height: 120px; */
     /* background-color: bisque; */
 }
 
@@ -272,6 +273,7 @@ ul {
 }
 .block {
     /* background-color: green; */
+    width: 200px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
