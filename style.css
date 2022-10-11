@@ -327,3 +327,20 @@ ul{
     letter-spacing: -0.4px;
     /* font: 400 1rem/1.625rem "Open Sans", sans-serif; ****/
 }
+
+/* last part */
+.footer-section {
+    width: 100vw;
+    justify-content: center;
+}
+.last-h3 {
+    width: 60%;
+    font-family: "Open Sans", sans-serif;
+    color: #252c38;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -0.2px;
+    text-align: center;
+    margin: auto;
+}
