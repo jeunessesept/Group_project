@@ -509,3 +509,56 @@ ul {
 .pd-mini {
     padding-right: 4px;
 }
+
+
+/*** MOBILE ***/
+
+@media only screen and (max-width : 390px) {
+    .container-a {
+        margin: 0 auto;
+    }
+    .navbar{
+        background-color:rgb(225, 238, 243);
+    }
+    .h1-a{
+        margin-left: 15px;
+    }
+    nav {
+        display: none;
+    }
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .button-head {
+        display: flex;
+        flex-direction: column;
+        margin-left: 87.5px;
+    }
+    .button-1 {
+        margin: 10px 0;
+        width : 175px;
+    }
+    .button-2 {
+        margin: 10px 0;
+        width : 175px;
+    }
+    .br1 {
+        display: none;
+    }
+
+    .head-smart {
+        height: 260px;
+        width: 301px;
+    }
+
+    .section-2 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
