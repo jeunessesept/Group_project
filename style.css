@@ -5,6 +5,8 @@
 }
 
 body{
+    width: 100vw;
+    height: 100vh;
     font-family: Roboto, sans-serif;
 }       
 
@@ -171,22 +173,39 @@ ul {
     justify-content: center;
 }
 
+.section5 p{
+    margin-top: 20px;
+}
+
+
 .imgsize{
     width: 560px;
     height: 390px;
 }
 
-ul{
+.text2 ul{
     list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .dir{
     flex-direction: column;
 }
 
+.right{
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    margin-left: 70px;
+    justify-content: center;
+}
+
+
 .buttons{
     width: 50%;
     display: flex;
+    justify-content: center;
 
 }
 
@@ -194,16 +213,20 @@ ul{
     width: 130px;
     height: 45px;
     background-color: rgb(89, 75, 218);
+    color: whitesmoke;
     border: 0;
     border-radius: 40px;
+    margin-left: 20px;
 
 }
 .butright{
     width: 130px;
     height: 45px;
+    background-color: #FFFFFF;
     border: 1px solid black;
     border-radius: 40px;
     text-align: center;
+    margin-left: 20px;
 }
 
 .top{
@@ -326,4 +349,45 @@ ul{
     line-height: 2.625rem;
     letter-spacing: -0.4px;
     /* font: 400 1rem/1.625rem "Open Sans", sans-serif; ****/
+}
+
+.prices{
+    width: 100%;
+    height: 720px;
+    background-image: url(./assets/pricing-background.jpeg);
+    background-size: cover;  
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.pricetext{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+.hcolor{
+    color: #ff6e84;
+}
+
+.hfont{
+    text-transform: uppercase;
+}
+
+.boxsection{
+    display: flex;
+}
+
+.box{
+    width: 330px;
+    height: 487px;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    justify-content: center;
 }
