@@ -360,12 +360,12 @@ ul {
 .prices{
     width: 100%;
     height: 720px;
-    background:linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)),url(./assets/pricing-background.jpeg) no-repeat;
+    background:linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)),url(./assets/pricing-background.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding-top: 60px;
     background-position: 0 -115px;
 }
 
@@ -377,6 +377,10 @@ ul {
     text-align: center;
     color: white;
     margin: auto;
+}
+
+.pricetext h2{
+    font-size: xx-large;
 }
 
 .hcolor{
@@ -418,19 +422,26 @@ ul {
     padding: 0;
 }
 
-.monthly{
-    font-weight: 400;
-    font-size: medium;
+.textlist{
+    text-align: left;
 }
 
 
+.monthly{
+    font-weight: 400;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
 .downbut{
+    display: inline-block;
     background-color: #594cda;
     color: white;
     width: 120px;
     height: 40px;
     border-radius: 40px;
     border: 0;
+
 }
 
 
@@ -509,3 +520,39 @@ ul {
 .pd-mini {
     padding-right: 4px;
 }
+
+
+@media only screen and (max-width: 390px) {
+    
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header{
+        width: 100%;;
+    }
+
+    
+    .container-a{
+        margin: 0 auto;
+    }
+
+    .section4{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section5{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
+
+
