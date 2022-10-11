@@ -6,7 +6,6 @@
 
 body{
     width: 100vw;
-    height: 100vh;
     font-family: Roboto, sans-serif;
 }       
 
@@ -359,17 +358,18 @@ ul {
     /* font: 400 1rem/1.625rem "Open Sans", sans-serif; ****/
 }
 
+/*** BOX backgroun image****/
 
 .prices{
     width: 100%;
-    height: 720px;
     background:linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)),url(./assets/pricing-background.jpeg);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    background-position: 0 -115px;
+    background-position: 0 -45px;
+    padding: 50px 50px 0px 50px;
 }
 
 .pricetext{
@@ -408,8 +408,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-left: 2.25rem;
-    padding-right: 2.25rem;
+    padding: 50px 50px 30px 50px;
+    margin-top: 100px;
 
 }
 
@@ -656,9 +656,19 @@ ul {
     }
 
     .boxsection{
+        width:auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .prices{
+        width: 100vw;
+        display: flex;
+        background-repeat: repeat;
+        padding: 0;
+        justify-content: center;
+        
     }
 }
 
