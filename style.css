@@ -354,11 +354,13 @@ ul {
 .prices{
     width: 100%;
     height: 720px;
-    background-image: url(./assets/pricing-background.jpeg);
-    background-size: cover;  
+    background:linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)),url(./assets/pricing-background.jpeg) no-repeat;
+    background-size: cover;
     flex-wrap: wrap;
     justify-content: center;
-    
+    text-align: center;
+    padding-top: 60px;
+    background-position: 0 -115px;
 }
 
 .pricetext{
@@ -380,14 +382,47 @@ ul {
 }
 
 .boxsection{
-    display: flex;
+    width: 80%;
+    justify-content: space-around;
+
 }
 
 .box{
     width: 330px;
-    height: 487px;
     background-color: white;
     border: 0.5px solid black;
     border-radius: 15px;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+
+}
+
+.pricetype{
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.pricy{
+    font-weight: 500;
+    font-size: 80px ;
+    padding: 0;
+}
+
+.monthly{
+    font-weight: 400;
+    font-size: medium;
+}
+
+
+.downbut{
+    background-color: #594cda;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    border: 0;
 }
