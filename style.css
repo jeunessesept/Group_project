@@ -433,6 +433,12 @@ ul {
     margin-bottom: 10px;
 }
 
+.buttonend{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .downbut{
     display: inline-block;
     background-color: #594cda;
@@ -529,6 +535,7 @@ ul {
         display: flex;
         flex-direction: column;
         align-items: center;
+        flex-wrap: nowrap;
     }
 
     header{
@@ -550,9 +557,58 @@ ul {
     .section5{
         display: flex;
         flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .imgsize{
+        width: 90vw;
+        height: auto;
+        justify-content: center;
+    }
+
+    .row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
     
+    .text1,
+    .text2,
+    .text3{
+        width: 100%;
+        text-align: left;
+        
+    }
 
+    .text1{
+        margin-top: 40px;
+    }
+
+    .img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .right{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .buttons{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .boxsection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 
