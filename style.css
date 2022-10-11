@@ -19,7 +19,14 @@ body{
 
 .space{
     justify-content: space-between;
+}
 
+.text-center {
+    text-align: center;
+}
+
+.flex-column {
+    flex-direction: column;
 }
 
 /* header */
@@ -299,7 +306,6 @@ ul{
 }
 
 .reviews-line {
-   
     justify-content: space-between;
     align-items:flex-start
 }
@@ -326,4 +332,79 @@ ul{
     line-height: 2.625rem;
     letter-spacing: -0.4px;
     /* font: 400 1rem/1.625rem "Open Sans", sans-serif; ****/
+}
+
+/* Audric */ 
+
+.conclusion {
+    background-image: url(./assets/conclusion-background.jpeg);
+    background-size: cover;
+
+}.bkgccl {
+    padding-bottom: 20px;
+}
+
+.pd-bot {
+    padding-bottom: 20px;
+}
+
+.pd-big {
+    padding-top: 80px;
+}
+
+#p-ccl {
+    font-size: 1.875rem;
+    --tw-text-opacity: 1;
+    color: rgba(31,41,55,var(--tw-text-opacity));
+}
+
+.pd-right-small {
+    padding-right: 40px;
+}
+
+.btn-up-arrow {
+    background-color: #252c38;
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+}
+
+.btn {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.bkgrd-grd {
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(197, 234, 249, 1));;
+}
+
+.btn-icon {
+    background-color: white;
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    border: none;
+    margin-left: 15px;
+}
+
+.mgt-big {
+    margin-top: 200px;
+}
+
+.pd-small-2 {
+    padding-top: 30px;
+}
+
+.p-footer {
+    color: #6b747b;
+    font-size: 0.875rem;
+}
+
+.mgl-small {
+    margin-right: 15px;
+}
+
+.pd-mini {
+    padding-right: 4px;
 }
