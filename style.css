@@ -360,12 +360,12 @@ ul {
 .prices{
     width: 100%;
     height: 720px;
-    background:linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)),url(./assets/pricing-background.jpeg) no-repeat;
+    background:linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)),url(./assets/pricing-background.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding-top: 60px;
     background-position: 0 -115px;
 }
 
@@ -377,6 +377,10 @@ ul {
     text-align: center;
     color: white;
     margin: auto;
+}
+
+.pricetext h2{
+    font-size: xx-large;
 }
 
 .hcolor{
@@ -418,19 +422,32 @@ ul {
     padding: 0;
 }
 
-.monthly{
-    font-weight: 400;
-    font-size: medium;
+.textlist{
+    text-align: left;
 }
 
 
+.monthly{
+    font-weight: 400;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+
+.buttonend{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .downbut{
+    display: inline-block;
     background-color: #594cda;
     color: white;
     width: 120px;
     height: 40px;
     border-radius: 40px;
     border: 0;
+
 }
 
 
@@ -562,3 +579,89 @@ ul {
     }
 
 }
+
+
+@media only screen and (max-width: 390px) {
+    
+    body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    header{
+        width: 100%;;
+    }
+
+    
+    .container-a{
+        margin: 0 auto;
+    }
+
+    .section4{
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section5{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .imgsize{
+        width: 90vw;
+        height: auto;
+        justify-content: center;
+    }
+
+    .row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .text1,
+    .text2,
+    .text3{
+        width: 100%;
+        text-align: left;
+        
+    }
+
+    .text1{
+        margin-top: 40px;
+    }
+
+    .img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .right{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .buttons{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .boxsection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
