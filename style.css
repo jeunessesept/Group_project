@@ -576,6 +576,36 @@ ul {
         margin-right: 20px;
     }
 
+    .bkgccl {
+        height: 260px;
+        width: 301px;
+    }
+    .p-ccl{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .div-ccl {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 0;
+    }
+    .section-f{
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .credits {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-right: 0;
+    }
+    .p-footer {
+        margin-top: 20px;
+        margin-right: 0;
+    }
 }
 
 
