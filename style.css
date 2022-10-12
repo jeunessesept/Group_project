@@ -272,7 +272,7 @@ ul {
 }
 .block {
     /* background-color: green; */
-    width: 200px;
+    width: 191px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -699,18 +699,14 @@ ul {
     .none {
         display: none;
     }
-
     
     .review {
         
         max-width: 80%;
-    }
-    
- 
+    } 
     
     .h2-review {
-        text-align: center;
-        
+        text-align: center;       
       
     }
     
