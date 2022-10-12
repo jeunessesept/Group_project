@@ -59,8 +59,8 @@ ul {
 }
 
 .icon-2 {
-    height: 15px;
-    width: 15px;
+    color: #594cda;
+    padding-left: 10px;
 }
 
 .justify-center {
@@ -449,13 +449,8 @@ ul {
     margin-right: 10px;
 }
 
-<<<<<<< HEAD
-.monthly {
-    font-weight: 400;
-=======
 .monthly{
     font-weight: 300;
->>>>>>> 2eb30e491ef78bc4bc73dae7b10b6171594f77af
     font-size: medium;
     margin-bottom: 10px;
 }
@@ -771,7 +766,6 @@ ul {
     
     .h2-review {
         text-align: center;       
-      
     }
     .box-for-numbers {
         height: 900px;
@@ -783,7 +777,4 @@ ul {
     .box-for-numbers {
         height: 640px;
     }
-  }
-
-
 }
