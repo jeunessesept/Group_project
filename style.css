@@ -245,7 +245,7 @@ ul {
 
 
 .textwidth{
-    width: 50%;
+    width: 50vw;
     margin: auto 100px;
     margin-left: 0;
 }
@@ -362,7 +362,7 @@ ul {
 /*** Pricesbox ****/
 
 .prices{
-    width: 100%;
+    width: 100vw;
     background:linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)),url(./assets/pricing-background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -747,4 +747,26 @@ ul {
 
 }
 
+@media screen and (max-width: 1000px) and (min-width: 391px){
+    
+    .boxsection{
+        width:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    
+    .prices{
+        width: 100vw;
+        display: flex;
+        background-repeat: no-repeat;
+        padding: 0;
+        justify-content: center;
+        background-position: 0px -60px;
+        
+    }
+
+}
 
