@@ -256,15 +256,16 @@ ul {
 .box-for-numbers {
     height: 400px;
     /* background-color: aqua; */
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
+    align-items: center;
 }
 .beautifull-numbers {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* height: 120px; */
-    /* background-color: bisque; */
+   /* height: 100%; */
+   gap: 80px;
 }
 
 .bold {
@@ -272,7 +273,7 @@ ul {
 }
 .block {
     /* background-color: green; */
-    width: 191px;
+    width: 180px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
@@ -735,7 +736,16 @@ ul {
         text-align: center;       
       
     }
+    .box-for-numbers {
+        height: 900px;
+    }
 
 }
+
+@media screen and (max-width: 1000px) and (min-width: 391px) {
+    .box-for-numbers {
+        height: 640px;
+    }
+  }
 
 
