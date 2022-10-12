@@ -208,6 +208,11 @@ ul {
     justify-content: center;
 }
 
+.fa-ul{
+    margin-left: var(--fa-li-margin,1em);
+    padding-left: 0;
+}
+
 .fa-li {
     color: #594CDA;
 }
