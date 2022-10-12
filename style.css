@@ -97,7 +97,7 @@ ul {
 }
 
 .section-1 {
-    margin-top: 80px;
+    margin-top: 160px;
 }
 
 #home {
@@ -695,6 +695,7 @@ ul {
         flex-direction: column;
         padding-left: 20px;
         padding-right: 20px;
+        margin-top: 50px;
     }
 
     .imgsize {
@@ -778,7 +779,8 @@ ul {
         text-align: center;       
     }
     .box-for-numbers {
-        height: 900px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
 }
@@ -828,7 +830,7 @@ ul {
 
 @media screen and (max-width: 1000px) and (min-width: 391px) {
     .box-for-numbers {
-        height: 640px;
+        margin-top: 50px;
     }
   }
 
