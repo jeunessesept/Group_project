@@ -147,7 +147,7 @@ ul {
 
 .logbox{
     width: 342px;
-    height: 300px;
+    /* height: 300px; */
     background-color: #F0F9FC ;
     border-radius: 15px;
     display: flex;
@@ -156,6 +156,8 @@ ul {
     align-items: center;
     padding-left: 2.85rem;
     padding-right: 2.85rem;
+    padding-top: 60px;
+    padding-bottom: 60px;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -185,8 +187,8 @@ ul {
 
 
 .imgsize{
-    width: 560px;
-    height: 390px;
+    max-width: 100%;
+    height: auto;
 }
 
 .text2 ul{
@@ -248,9 +250,8 @@ ul {
     margin-left: 0;
 }
 
-.imgwidth{
-    width: 50%;
-}
+
+/*** Yurii ***/
 
 
 .box-for-numbers {
@@ -358,7 +359,7 @@ ul {
     /* font: 400 1rem/1.625rem "Open Sans", sans-serif; ****/
 }
 
-/*** BOX backgroun image****/
+/*** Pricesbox ****/
 
 .prices{
     width: 100%;
@@ -435,6 +436,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .dollsign{
@@ -444,20 +446,22 @@ ul {
 }
 
 .monthly{
-    font-weight: 400;
+    font-weight: 300;
     font-size: medium;
     margin-bottom: 10px;
 }
 
+.buttonend{
+    transform: translate(0, 50px);
+}
 
 .downbut{
     display: inline-block;
     background-color: #594cda;
     color: white;
-    width: 120px;
-    height: 40px;
     border-radius: 40px;
     border: 0;
+    padding: 15px 30px 15px 30px;
 
 }
 
@@ -708,9 +712,10 @@ ul {
     .prices{
         width: 100vw;
         display: flex;
-        background-repeat: repeat;
+        background-repeat: no-repeat;
         padding: 0;
         justify-content: center;
+        background-position: 0px -60px;
         
     }
 
