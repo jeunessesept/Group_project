@@ -209,7 +209,7 @@ ul {
 }
 
 .fa-ul{
-    margin-left: var(--fa-li-margin,1em);
+    margin-left: 1emgit;
     padding-left: 0;
 }
 
